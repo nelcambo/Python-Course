@@ -1,0 +1,25 @@
+A hobby programming project
+The circumstances in which Python was created are a bit puzzling. According to Guido van Rossum:
+
+In December 1989, I was looking for a "hobby" programming project that would keep me occupied during the week around Christmas. My office (...) would be closed, but I had a home computer, and not much else on my hands. I decided to write an interpreter for the new scripting language I had been thinking about lately: a descendant of ABC that would appeal to Unix/C hackers. I chose Python as a working title for the project, being in a slightly irreverent mood (and a big fan of Monty Python's Flying Circus).
+Guido van Rossum
+Python goals
+In 1999, Guido van Rossum defined his goals for Python:
+
+an easy and intuitive language just as powerful as those of the major competitors;
+open source, so anyone can contribute to its development;
+code that is as understandable as plain English;
+suitable for everyday tasks, allowing for short development times.
+About 20 years later, it is clear that all these intentions have been fulfilled. Some sources say that Python is the most popular programming language in the world, while others claim it's the second or the third.
+
+
+
+
+The Ministry of Silly Walks Concept
+
+
+Either way, it still occupies a high rank in the top ten of the PYPL PopularitY of Programming Language and the TIOBE Programming Community Index.
+
+Python isn't a young language anymore. It is mature and trustworthy. It's not a one-hit wonder. It's a bright star in the programming firmament, and time spent learning Python is a very good investment.
+
+

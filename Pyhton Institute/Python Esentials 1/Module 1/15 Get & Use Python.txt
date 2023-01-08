@@ -1,0 +1,30 @@
+How to get Python and how to get to use it
+There are several ways to get your own copy of Python 3, depending on the operating system you use.
+
+Linux users most probably have Python already installed - this is the most likely scenario, as Python's infrastructure is intensively used by many Linux OS components.
+
+For example, some distributors may couple their specific tools together with the system and many of these tools, like package managers, are often written in Python. Some parts of graphical environments available in the Linux world may use Python, too.
+
+If you're a Linux user, open the terminal/console, and type:
+
+python3
+
+at the shell prompt, press Enter and wait.
+
+If you see something like this:
+
+Python 3.4.5 (default, Jan 12 2017, 02:28:40)
+[GCC 4.2.1 Compatible Clang 3.7.1 (tags/RELEASE_371/final)] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>>
+
+then you don't have to do anything else.
+
+
+
+If Python 3 is absent, then refer to your Linux documentation in order to find out how to use your package manager to download and install a new package – the one you need is named python3 or its name begins with that.
+
+All non-Linux users can download a copy at https://www.python.org/downloads/.
+
+Linux Terminal
+

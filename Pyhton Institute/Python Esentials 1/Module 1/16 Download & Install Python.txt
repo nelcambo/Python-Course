@@ -1,0 +1,17 @@
+Downloading and installing Python
+Because the browser tells the site you've entered the OS you use, the only step you have to take is to click the appropriate Python version you want.
+
+In this case, select Python 3. The site always offers you the latest version of it.
+
+If you're a Windows user, start the downloaded .exe file and follow all the steps.
+
+Leave the default settings the installer suggests for now, with one exception - look at the checkbox named Add Python 3.x to PATH and check it.
+
+This will make things easier.
+
+If you're a macOS user, a version of Python 2 may already have been preinstalled on your computer, but since we will be working with Python 3, you will still need to download and install the relevant .pkg file from the Python site.
+
+
+
+www.python.org/downloads website
+
