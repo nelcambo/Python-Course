@@ -1,0 +1,18 @@
+The print() function - instructions
+We've changed the example a bit - we've added one empty print() function invocation. We call it empty because we haven't delivered any arguments to the function.
+
+You can see it in the editor window. Run the code.
+
+What happens?
+
+If everything goes right, you should see something like this:
+
+The itsy bitsy spider climbed up the waterspout.
+
+Down came the rain and washed the spider out.
+output
+
+As you can see, the empty print() invocation is not as empty as you may have expected - it does output an empty line, or (this interpretation is also correct) its output is just a newline.
+
+This is not the only way to produce a newline in the output console. We're now going to show you another way.
+

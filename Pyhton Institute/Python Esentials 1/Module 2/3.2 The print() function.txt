@@ -1,0 +1,27 @@
+The print() function
+As we said before, a function may have:
+
+an effect;
+a result.
+There's also a third, very important, function component - the argument(s).
+
+Mathematical functions usually take one argument, e.g., sin(x) takes an x, which is the measure of an angle.
+
+Python functions, on the other hand, are more versatile. Depending on the individual needs, they may accept any number of arguments - as many as necessary to perform their tasks. Note: any number includes zero - some Python functions don't need any argument.
+
+print("Hello, World!")
+
+
+In spite of the number of needed/provided arguments, Python functions strongly demand the presence of a pair of parentheses - opening and closing ones, respectively.
+
+
+If you want to deliver one or more arguments to a function, you place them inside the parentheses. If you're going to use a function which doesn't take any argument, you still have to have the parentheses.
+
+Note: to distinguish ordinary words from function names, place a pair of empty parentheses after their names, even if the corresponding function wants one or more arguments. This is a standard convention.
+
+The function we're talking about here is print().
+
+Does the print() function in our example have any arguments?
+
+Of course it does, but what are they?
+
