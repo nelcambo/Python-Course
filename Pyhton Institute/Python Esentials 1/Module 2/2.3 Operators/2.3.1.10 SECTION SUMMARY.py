@@ -58,3 +58,15 @@ print((2 % -4), (2 % 4), (2 ** 3 ** 2))
 
 print((2 % -4))
 print((2 % 4))
+
+#Aca no pensamos en el residuo como en el teorema del residuo
+# d/D = c + r/D 
+# d = c*D + r 
+# r = d - c*D 
+
+#https://guiasjuridicas.wolterskluwer.es/Content/Documento.aspx?params=H4sIAAAAAAAEAMtMSbF1jTAAASMzAyNTtbLUouLM_DxbIwMDS0NDIwOQQGZapUt-ckhlQaptWmJOcSoAYgKbrDUAAAA=WKE#:~:text=Si%20es%20positivo%20entonces%20el,se%20sobreestima%20la%20variable%20Y.
+
+#Lo hacemos mediante la definicion de congruencia modulo n
+#Dos numeros a y b son congruentes modulo n si y solo si a-b = n*k
+#por lo cual, en este caso.. Seria asi como: 2-b = k*(-4) 
+# para k =1, b debe ser -2, cierto? Yes Sir!.
