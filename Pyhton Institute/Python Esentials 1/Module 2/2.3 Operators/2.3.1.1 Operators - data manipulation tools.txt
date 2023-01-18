@@ -1,10 +1,12 @@
 Python as a calculator
+
 Now, we're going to show you a completely new side of the print() function. You already know that the function is able to show you the values of the literals passed to it by arguments.
 
 In fact, it can do something more. Take a look at the snippet:
 
 print(2+2)
 
+4
 
 Retype the code in the editor and run it. Can you guess the output?
 
