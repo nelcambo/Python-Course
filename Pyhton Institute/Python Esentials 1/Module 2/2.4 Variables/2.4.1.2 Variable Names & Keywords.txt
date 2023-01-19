@@ -1,4 +1,5 @@
 Correct and incorrect variable names
+
 Note that the same restrictions apply to function names.
 
 Python does not impose restrictions on the length of variable names, but that doesn't mean that a long variable name is always better than a short one.
@@ -21,7 +22,7 @@ And now for some incorrect names:
 
 NOTE
 
-The PEP 8 -- Style Guide for Python Code recommends the following naming convention for variables and functions in Python:
+The PEP 8 -- Style Guide for Python Code (https://peps.python.org/pep-0008/) recommends the following naming convention for variables and functions in Python:
 
 variable names should be lowercase, with words separated by underscores to improve readability (e.g., var, my_variable)
 function names follow the same convention as variable names (e.g., fun, my_function)
