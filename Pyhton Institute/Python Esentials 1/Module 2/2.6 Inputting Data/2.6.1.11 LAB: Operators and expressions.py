@@ -50,17 +50,17 @@
 
 # Write your code here.
 
-hour = int(input("Starting time (hours): "))
-mins = int(input("Starting time (minutes): "))
-dura = int(input("Event duration (minutes): "))
+#hour = int(input("Starting time (hours): "))
+#mins = int(input("Starting time (minutes): "))
+#dura = int(input("Event duration (minutes): "))
 
 # Write your code here.
-mins += dura
-new_hour = mins//60
-hour += new_hour 
-mins -= 60*new_hour
+#mins += dura
+#new_hour = mins//60
+#hour += new_hour 
+#mins -= 60*new_hour
 
-print(f"The end time is: {hour}:{mins}")
+#print(f"The end time is: {hour}:{mins}")
 
 #This one works for :
 
@@ -70,4 +70,20 @@ print(f"The end time is: {hour}:{mins}")
 # 59
 
 # Expected output: 13:16
+# but not for the other ones
 
+# Now, the code below works for all of the options.
+
+hour = int(input("Starting time (hours): "))
+mins = int(input("Starting time (minutes): "))
+dura = int(input("Event duration (minutes): "))
+
+# Write your code here.
+
+mins += dura
+new_hour = mins//60
+hour += new_hour 
+hour = hour%24
+mins -= 60*new_hour
+
+print(f"The end time is: {hour}:{mins}")

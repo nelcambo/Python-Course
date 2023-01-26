@@ -49,10 +49,10 @@
 
 x = float(input("Enter value for x: "))
 
-# Write your code here.
+y = x
+y += 1/y 
+y = x + 1/y 
+y = x + 1/y
+y = 1/y
 
 print("y =", y)
-x = float(input("Enter value for x: "))
-
-
-#Console 
