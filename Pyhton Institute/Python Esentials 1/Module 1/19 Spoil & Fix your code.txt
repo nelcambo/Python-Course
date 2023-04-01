@@ -1,0 +1,72 @@
+How to spoil and fix your code
+Now start IDLE again.
+
+Click File, Open, point to the file you saved previously and let IDLE read it in.
+Try to run it again by pressing F5 when the editor window is active.
+As you can see, IDLE is able to save your code and retrieve it when you need it again.
+
+IDLE contains one additional and helpful feature.
+
+First, remove the closing parenthesis.
+Then enter the parenthesis again.
+Your code should look like the one down here:
+
+Hisssssss...
+output
+
+
+
+Python 3.7.0 IDLE - Running a program after removing parenthesis from the print() function
+
+Every time you put the closing parenthesis in your program, IDLE will show the part of the text limited with a pair of corresponding parentheses. This helps you to remember to place them in pairs.
+
+Remove the closing parenthesis again. The code becomes erroneous. It contains a syntax error now. IDLE should not let you run it.
+
+Try to run the program again. IDLE will remind you to save the modified file. Follow the instructions.
+
+
+
+How to spoil and fix your code
+Watch all the windows carefully.
+
+A new window appears – it says that the interpreter has encountered an EOF (end-of-file) although (in its opinion) the code should contain some more text.
+
+The editor window shows clearly where it happened.
+
+Python 3.7.0 IDLE - Console message after running a program with removed parenthesis from the print() function
+
+
+Fix the code now. It should look like this:
+
+print("Hisssssss...")
+
+
+Run it to see if it "hisses" again.
+
+Let's spoil the code one more time. Remove one letter from the word print. Run the code by pressing F5. What happens now? As you can see, Python is not able to recognize the instruction.
+
+Python 3.7.0 IDLE - Removing the letter t from the print() function
+
+
+
+How to spoil and fix your code
+You may have noticed that the error message generated for the previous error is quite different from the first one.
+
+Python 3.7.0 IDLE - Console error message after running a program with removed letter t from the print() function
+
+This is because the nature of the error is different and the error is discovered at a different stage of interpretation.
+
+
+
+The editor window will not provide any useful information regarding the error, but the console windows might.
+
+The message (in red) shows (in the subsequent lines):
+
+the traceback (which is the path that the code traverses through different parts of the program - you can ignore it for now, as it is empty in such a simple code);
+the location of the error (the name of the file containing the error, line number and module name); note: the number may be misleading, as Python usually shows the place where it first notices the effects of the error, not necessarily the error itself;
+the content of the erroneous line; note: IDLE’s editor window doesn’t show line numbers, but it displays the current cursor location at the bottom-right corner; use it to locate the erroneous line in a long source code;
+the name of the error and a short explanation.
+
+Experiment with creating new files and running your code. Try to output a different message to the screen, e.g., roar!, meow, or even maybe an oink!. Try to spoil and fix your code - see what happens.
+
+
