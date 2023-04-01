@@ -1,0 +1,37 @@
+Coding strings
+Now, the next question is: how do you embed an apostrophe into a string placed between apostrophes?
+
+You should already know the answer, or to be precise, two possible answers.
+
+Try to print out a string containing the following message:
+
+I'm Monty Python.
+
+Do you know how to do it? Click Check below to see if you were right:
+
+Check
+
+
+print("I'm Monty Python.")
+
+or 
+
+print("I\'m Monty Python.")
+
+or 
+
+print('I\'m Monty Python.')
+
+
+
+As you can see, the backslash is a very powerful tool - it can escape not only quotes, but also apostrophes.
+
+We've shown it already, but we want to emphasize this phenomenon once more - a string can be empty - it may contain no characters at all.
+
+An empty string still remains a string:
+
+''
+""
+
+print(type('')) returns <class 'str'> 
+print(type("")) also returns <class 'str'> 

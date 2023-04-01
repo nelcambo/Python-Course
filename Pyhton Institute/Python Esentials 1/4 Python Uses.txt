@@ -1,0 +1,26 @@
+Where do you use Python?
+Do you remember Battlefield 2, Battlefield 2142 and Battlefield Heroes - strategy and first person shooter games from EA DICE? All the games use Python for logic and server controls. Python is frequently used for creating open-source, free games, e.g., OpenRTS, PySol, Metin 2, or Frets On Fire - famous Guitar Hero-like games written in pygame.
+
+And what about the major websites and services? Dropbox? UBER? Spotify? Pintrest? BuzzFeed? Yes. They were all written, to a greater or lesser extent, in Python. Other examples?
+
+Internet Applications (BitTorrent, Jogger Publishing Assistant, TheCircle, TwistedMatrix)
+3D CAD/CAM (FreeCAD, Fandango, Blender, Vintech RCAM)
+Enterprise Applications (Odoo, Tryton, Picalo, LinOTP 2, RESTx)
+Image Applications (Gnofract 4D, Gogh, imgSeek, MayaVi, VPython)
+Mobile Applications (Aarlogic C05/3, AppBackup, Pyroute)
+Office Applications (calibre, faces, Notalon, pyspread)
+Personal Information Managers (BitPim, Narval, Prioritise, Task Coach, WikidPad)
+(Source: https://wiki.python.org/moin/PythonProjects)
+
+
+Generally, Python is a great choice for:
+
+Web and Internet development (e.g., Django and Pyramid frameworks, Flask and Bottle micro-frameworks)
+Scientific and numeric computing (e.g., SciPy - a collection of packages for the purposes of mathematics, science, and engineering; Ipython - an interactive shell that features editing and recording of work sessions)
+Education (it's a brilliant language for teaching programming! And that's why we're offering this course to you!)
+Desktop GUIs (e.g., wxWidgets, Kivy, Qt)
+Software Development (build control, management, and testing - Scons, Buildbot, Apache Gump, Roundup, Trac)
+Business applications (ERP and e-commerce systems - Odoo, Tryton)
+(Source: https://www.python.org/about/apps)
+And many, many other projects and development tools.
+
