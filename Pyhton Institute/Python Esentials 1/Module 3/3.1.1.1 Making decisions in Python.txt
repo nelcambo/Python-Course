@@ -1,0 +1,46 @@
+Questions and answers
+A programmer writes a program and the program asks questions.
+
+A computer executes the program and provides the answers. The program must be able to react according to the received answers.
+
+Fortunately, computers know only two kinds of answers:
+
+yes, this is true;
+no, this is false.
+You will never get a response like Let me think...., I don't know, or Probably yes, but I don't know for sure.
+
+To ask questions, Python uses a set of very special operators. Let's go through them one after another, illustrating their effects on some simple examples.
+
+
+Comparison: equality operator
+Question: are two values equal?
+
+To ask this question, you use the == (equal equal) operator.
+
+Don't forget this important distinction:
+
+= is an assignment operator, e.g., a = b assigns a with the value of b;
+== is the question are these values equal?; a == b compares a and b.
+It is a binary operator with left-sided binding. It needs two arguments and checks if they are equal.
+
+Exercises
+Now let's ask a few questions. Try to guess the answers.
+
+Question #1: What is the result of the following comparison?
+
+2 == 2    Check
+
+True - of course, 2 is equal to 2. Python will answer True (remember this pair of predefined literals, True and False - they're Python keywords, too).
+
+Question #2: What is the result of the following comparison?
+
+2 == 2.    Check
+
+This question is not as easy as the first one. Luckily, Python is able to convert the integer value into its real equivalent, and consequently, the answer is True.
+
+Question #3: What is the result of the following comparison?
+
+1 == 2    Check
+
+This should be easy. The answer will be (or rather, always is) False.
+
